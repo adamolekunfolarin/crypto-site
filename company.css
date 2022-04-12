@@ -1,0 +1,105 @@
+header {
+    z-index: 1;
+    background: #88d1ee;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #e3e3e8;
+
+}
+#logo {
+  float: left;
+  font-size: 3em;
+  margin: 0;
+  padding: .4em;
+  text-decoration: none;
+  color: #333;
+  border-right: 1px solid #e3e3e8;
+  transition: .5s all;
+}
+#logo:hover {
+  color: #fafafa;
+  background-color: #333;
+}
+nav {
+  float: left;
+}
+nav ul {
+    z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 2.2em 2em;
+}
+nav ul li {
+  display: inline;
+  padding: 0 .4em;
+}
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.3em;
+  transition: .5s color;
+}
+nav ul li a:hover {
+  border-bottom: 3px solid #333;
+}
+#current {
+  color: #ff4629;
+  border-bottom: 3px solid #333;
+}
+#fb:hover {
+  color: #3b5998;
+}
+#twitter:hover {
+  color: #00acee;
+}
+
+/**create account**/
+
+#createaccount ul{display: flex;
+flex-direction: row-reverse;
+gap: 40px;
+list-style: none;
+font-size: 30px;
+position: fixed;
+right: 150px;
+top: 0px;
+z-index: 2;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+
+}
+
+#createaccount ul li{text-decoration: none;
+list-style: none;}
+
+#createaccount ul li a{list-style: none;
+text-decoration: none;}
+
+.video1{position: relative;
+  bottom: 200px;
+left: 800px;}
+
+.buy{font-size: 50px;
+position: relative;
+top: 200px;
+right: -100px;
+color: #00acee;}
+.text{font-size: 20px;
+position: relative;
+top: 200px;
+right: -100px;}
+
+#getstarted{
+  background: #00acee;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  bottom: 200px;
+  right: 400px;
+  border-radius: 20px;
+  text-align: center;
+}
